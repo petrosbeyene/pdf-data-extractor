@@ -1,6 +1,6 @@
 # PDF Data Extractor for Investment Analysis
 
-A powerful tool for extracting key investment information from earnings call transcripts and financial reports, designed for investors looking to evaluate companies.
+A tool for extracting key investment information from earnings call transcripts and financial reports, designed for investors looking to evaluate companies.
 
 ## Overview
 
@@ -84,7 +84,7 @@ with open('investment_analysis.json', 'w') as f:
 
 This tool is designed to work seamlessly with Google Colab. Here's how to use it:
 
-**🔗 Quick Start: [Open in Google Colab](https://colab.research.google.com/github/yourusername/pdf-data-extractor/blob/main/pdf_extractor.ipynb)**
+**🔗 Quick Start: [Open in Google Colab](https://colab.research.google.com/github/petrosbeyene/pdf-data-extractor/blob/main/pdf_extractor_and_analyzer.ipynb)**
 
 1. Upload the script to your Google Colab notebook or copy the code from `pdf_extractor.py`
 2. Mount your Google Drive to access PDF files:
@@ -196,31 +196,17 @@ Margin Figures: 31.5, 27.3, 12.8
   Impact: High | Timeframe: Medium-term
 ```
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- This tool was created to address the challenge of efficiently extracting investment insights from financial documents
-- Special thanks to the NLTK and PyPDF2 communities for their excellent libraries
 
 ## Files in This Repository
 
 - `pdf_extractor.py` - Main Python script with all analysis functionality
 - `pdf_extractor.ipynb` - Google Colab notebook version
 - `requirements.txt` - Python package dependencies
-- `Challenge.md` - Original challenge description
 - `README.md` - This documentation
-
-## Contact
-
-For questions or feedback, please contact [your-email@example.com]
 
 ## Demo
 
-Try the live demo: [Google Colab Notebook](https://colab.research.google.com/github/yourusername/pdf-data-extractor/blob/main/pdf_extractor.ipynb) 
+Try the live demo: [Google Colab Notebook](https://colab.research.google.com/github/petrosbeyene/pdf-data-extractor/blob/main/pdf_extractor_and_analyzer.ipynb) 
